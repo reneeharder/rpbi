@@ -1,0 +1,201 @@
+body {
+    margin: 0 auto;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #1e1e48;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 83px;
+    width: 83px;
+    margin: 10px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 22px;
+}
+
+.list-item {
+    color: #4256a4; /****navy blue****/
+    float: left;
+    list-style-type: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    margin-top: 13px;
+    padding-right: 20px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+.list-item a:hover {
+    width: 300px;
+    color: #f49e39;
+    font-size: 1.2em;
+    background-color: white;
+    transition: all 0.8 ease;
+    transition-duration: 1s;
+    text-shadow: 2px 2px 2px #f8bb36;
+}
+
+/****************** End of Nav Bar ********************/
+
+.hero {
+    background-image: url('../images/watertowers.png');
+    height: 653px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero-box {
+    background-color: #4256a4;
+    border-radius: 29px;
+    background-image: linear-gradient(to bottom,#4256a4,#1e1e48);  
+    box-shadow: 7px 7px 10px; 
+    height: 160px;
+    width: 650px;
+    padding: 20px;
+    position: absolute;
+    top: 159px;
+    left: 48%;
+    line-height: 1;
+}
+
+.hero-title {
+    color: white;
+    text-align: center;
+    margin-top: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.3em;
+    text-shadow: 4px 4px #1e1e48;
+}
+
+.hero-motto {
+    color: #f49e39;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.6em;
+    transition: width 4s, height 4s, transform 4s;
+}
+
+.hero-motto:hover {
+  -webkit-transform: rotateY(360deg); /* Safari */
+  transform: rotateY(360deg);
+}
+/*************End of Hero************/
+
+.content {
+    height: 384px;
+    width: 100%;
+    margin-top: 15px;
+    border: 3px solid #1e1e48;
+    background-image: linear-gradient(to bottom,#4256a4,#1e1e48);  
+}
+
+.content-img {
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+
+.content-div {
+    height: 400px;
+    width: 58%;
+    float: right;
+    padding: 11px;
+}
+
+.content-title {
+    height: 40px;
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 4px 4px #1e1e48;
+}
+
+.content-text {
+    height: 189px;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content-text::first-letter {
+    color: #f49e39;
+    font-size: 200%;
+}
+
+/********************End of Content**************/
+
+.footer {
+    height: 75px;
+    width: 100%;
+    background-color: #1e1e48;
+    overflow: hidden;
+    color: white;
+}
+
+.footer-col {
+    height: 75px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+button {
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 15px;   
+}
+
+input {
+    height: 20px;
+    width: 150px;
+}
+
+.fa-instagram {
+    font-size: 3em;
+    color: #c32aa3;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.fa-facebook {
+    font-size: 3em;
+    color: #3b5998;    
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.fa-twitter {
+    font-size: 2.8em;
+    color: #00acee;
+    margin-top: 6px;
+}
+
+.copy {
+    margin-top: 29px;
+    margin-right: 14px;
+    text-align: right;
+    font-family: 'Noto Sans', sans-serif;
+}

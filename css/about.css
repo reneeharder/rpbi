@@ -1,0 +1,88 @@
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.columns {
+    height: 700px;
+    width: 30%;
+    border: 3px solid #4256a4; /*****navy blue******/ 
+    float: left;
+    overflow: hidden;
+    padding: 8px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+.about-titles {
+    color: #2c3157;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1px;
+}
+
+p {
+    text-align: center;
+    padding: 4px;
+}
+
+.police-img {
+    height: 150px;
+    width: 135px;
+    float: left;
+    clear: left;
+    margin-left: 136px;
+}
+
+.police-img:hover {
+    opacity: 0.5;
+}
+
+.mcc-img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    clear: left;
+    margin-left: 130px;
+}
+
+.mcc-img:hover {
+    opacity: 0.5;
+}
+
+.kcusd-img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 132px;
+}
+
+.kcusd-img:hover {
+    opacity: 0.5;
+}
+
+.cym-img {
+    height: 135px;
+    width: 243px;
+    float: left;
+    clear: left;
+    margin-left: 89px;
+}
+
+.cym-img:hover {
+    opacity: 0.5;
+}
+
+.report-icon {
+    height: 120px;
+    width: 120px;
+    margin-left: 157px;
+}
+
+.report-icon:hover {
+    opacity: 0.5;
+}
+

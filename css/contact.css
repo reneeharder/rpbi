@@ -1,0 +1,33 @@
+.contact-container {
+    height: 900px;
+    width: 100%;
+    margin-top: 104px;    
+    background-image: radial-gradient(circle,white,#4256a4,#1e1e48);  
+}
+
+.contact-container iframe {
+    width: 100%;
+    margin-left: 1px;
+    float: left;
+    box-shadow: -5px -5px 6px; 
+
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.8em;
+    color: white;
+    margin-top: 16px;
+}
+
+.visit-us {
+    width: 45%;
+    float: left;
+    margin-left: 15px;
+    margin-right: 48px;
+}
+
+.contact-us {
+    width: 45%;
+    float: left;
+}
